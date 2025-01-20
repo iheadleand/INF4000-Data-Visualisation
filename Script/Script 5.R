@@ -16,10 +16,12 @@ library(GGally)
 #############
 #Import Data
 ############
-song_metadata <-read_delim("songs.csv")
-song_acoustic_features <-read_delim("acoustic_features.csv")
-song_popularity <-read_delim("song_pop.csv")
-artist_metadata <-read_delim("artists.csv")
+song_metadata <-read_delim("../Dataset/songs.csv")
+song_acoustic_features <-read_delim("../Dataset/acoustic_features.csv")
+song_popularity <-read_delim("../Dataset/song_pop.csv")
+artist_metadata <-read_delim("../Dataset/artists.csv")
+
+
 
 
 
